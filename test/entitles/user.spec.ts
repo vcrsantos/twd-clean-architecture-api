@@ -1,4 +1,4 @@
-import { User } from './user'
+import { User } from '../../src/entitles/user'
 
 describe('User domain class', () => {
   test('should not create user with invalid e-mail address', () => {
